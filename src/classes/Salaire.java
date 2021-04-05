@@ -21,5 +21,16 @@ public class Salaire {
 	}
 	
 	
-	
+	double calculeTaxes()
+	{
+		if(salaire<500)
+			return 0;
+		else if (salaire <=1500)
+			return salaire *0.1;
+		else 
+			return salaire *0.15;
+		
+		
+		
+	}
 }
