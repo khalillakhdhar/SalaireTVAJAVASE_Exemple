@@ -15,6 +15,10 @@ public class Salaire {
 	public void setSalaire(double salaire) {
 		this.salaire = salaire;
 	}
+	public Salaire(String nom, double salaire) {
+		this.nom = nom;
+		this.salaire = salaire;
+	}
 	
 	
 	
