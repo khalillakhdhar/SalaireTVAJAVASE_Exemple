@@ -33,4 +33,17 @@ public class Salaire {
 		
 		
 	}
+	double salaireNette()
+	{
+		
+		return this.salaire-calculeTaxes();
+	}
+	@Override
+	public String toString() {
+		return "Détailles de la salaire [nom=" + nom + ", salaire=" + salaire + ", Taxes=" + calculeTaxes()
+				+ ", salaire nette=" + salaireNette() + "]";
+	}
+
+
+
 }
